@@ -13,6 +13,7 @@ import { BlogPostListComponent } from './components/blog-post-list/blog-post-lis
 import { BlogPostDetailsComponent } from './components/blog-post-details/blog-post-details.component';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { BlogCommentsComponent } from './components/blog-comments/blog-comments.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ContactComponent } from './components/contact/contact.component';
     BlogPostListComponent,
     BlogPostDetailsComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    BlogCommentsComponent
   ],
   imports: [
     BrowserModule,

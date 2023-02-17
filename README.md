@@ -27,6 +27,11 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 
-## installation section
+## Developer section
+- `ng g c components/blogComments --dry-run` to dry run generate components in the `components` folder
+- Add bootsrap css capability to the app `ng add @ng-bootstrap/ng-bootstrap`
+
+
+## Installation section
 - Add angular-cli-ghpages capability to deploy app to guthub pages `ng add angular-cli-ghpages`, then run `ng deploy --base-href=/angular-app/` to deploy to github. Please check the file 'package.json' for details.
 - Add bootsrap css capability to the app `ng add @ng-bootstrap/ng-bootstrap`
